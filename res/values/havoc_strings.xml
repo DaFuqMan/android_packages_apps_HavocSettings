@@ -80,7 +80,8 @@
     <string name="save">Save</string>
     <string name="default_string">Default</string>
     <string name="default_settings">Default settings</string>
-
+    <string name="ui_restart_required_note">SystemUI restart is required. Will be fixed soon.</string>
+    
         <!-- Recents Membar --> 
     <string name="systemui_recents_mem_display_title">Show Memory Bar</string> 
     <string name="systemui_recents_mem_display_summary">Enable Disable Ram bar in recent app view</string> 

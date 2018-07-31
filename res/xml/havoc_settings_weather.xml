@@ -36,10 +36,10 @@
         android:title="@string/weather_icon_pack_title"
         android:persistent="false" />
 
+
     </PreferenceCategory>
 
 
-    
     <PreferenceCategory	
         android:title="@string/lock_screen_weather_category" >
 
