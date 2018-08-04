@@ -732,7 +732,7 @@
     <string name="smartbar_doubletap_sleep_summary">Double-tap on the navbar empty areas to put device asleep</string>
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
-        <string name="stock_recents_category">Stock recents</string>
+    <string name="stock_recents_category">Stock recents</string>
     <string name="alternative_recents_category">Alternative recents</string>
     <!-- Slim Recent panel -->
     <string name="slim_recents_title">Slim recents</string>
@@ -1746,12 +1746,17 @@
     <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string> 
 	
     <string name="lockscreen_clock_selection_title">Clock style</string> 
-    <string name="lockscreen_clock_selection_digital">Default</string> 
-    <string name="lockscreen_clock_selection_digital_bold">Digital (Bold)</string> 
-    <string name="lockscreen_clock_selection_analog">Analog</string> 
-    <string name="lockscreen_clock_selection_analog_deadpool">Analog (Deadpool)</string> 
-    <string name="lockscreen_clock_selection_sammy">Sammy</string> 
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Bold)</string> 
+    <string name="lockscreen_clock_selection_digital">Digital</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital Bold</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy Bold</string>
+    <string name="string/lockscreen_clock_selection_analog">Analog</string>
+    <string name="lockscreen_clock_selection_analog_avengers">Analog (Avengers)</string>
+    <string name="lockscreen_clock_selection_analog_deadpool">Analog (Deadpool)</string>
+    <string name="lockscreen_clock_selection_analog_deepnight">Analog (Deep night)</string>
+    <string name="lockscreen_clock_selection_analog_spiderman">Analog (Spiderman)</string>
+    <string name="lockscreen_clock_selection_analog_transparent">Analog (Transparent)</string>
+    <string name="lockscreen_clock_selection_analog_white">Analog (White)</string> 
     <string name="lockscreen_date_selection_title">Date style</string> 
     <string name="lockscreen_weather_selection_title">Weather style</string> 
     <string name="lockscreen_date_selection_default_aosp">Default</string> 
