@@ -41,6 +41,7 @@ import com.havoc.settings.preferences.ScreenshotEditPackageListAdapter.PackageIt
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.development.DevelopmentSettings;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.development.DevelopmentSettings;
 
 import com.havoc.settings.R;
 
@@ -48,6 +49,8 @@ public class Misc extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
 
     public static final String TAG = "Misc";
+    private static final String KEY_DEVICE_PART = "xiaomi_part";
+    private static final String KEY_DEVICE_PART_PACKAGE_NAME = "com.endless.settings.device";
 
     private static final String MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
 
@@ -126,6 +129,11 @@ public class Misc extends SettingsPreferenceFragment
         return true;
     }
         
+
+    // Xiaomi Parts
+        if (!DevelopmentSettings.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
+        }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {

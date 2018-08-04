@@ -73,6 +73,16 @@
         android:title="@string/screenshot_edit_app"  
         android:summary="@string/screenshot_edit_app_summary" /> 
 
+
+      <!-- Xiaomi Parts -->
+    <Preference
+        android:key="xiaomi_part"
+        android:persistent="false"
+        android:title="@string/xiaomi_part_title">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.endless.settings.device"
+            android:targetClass="com.endless.settings.device.DeviceSettings"/>
+    
     </PreferenceCategory>
 
 </PreferenceScreen>

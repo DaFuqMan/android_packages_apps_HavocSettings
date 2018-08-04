@@ -2073,4 +2073,7 @@
     <string name="mt_reset">Reset</string> 
     <string name="time_in_state_title">Time in state</string> 
     <string name="time_in_state_summary">Show CPU frequency statistics</string> 
+
+     <!-- Xiaomi parts -->
+    <string name="xiaomi_part_title">XiaomiParts</string>
 </resources>
